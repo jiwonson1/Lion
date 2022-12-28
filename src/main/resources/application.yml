@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:test
+    username: jw
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  main:
+    allow-bean-definition-overriding: true # userDetailService 기존 스프링 제공 함수 안쓰고 정의한 함수로 바꾸기 위한 설정
+
+server:
+  port: 8081
