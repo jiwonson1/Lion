@@ -15,6 +15,10 @@
 - 회원 Service
 - 회원 VO 등
 
+[권한]
+
+[메뉴]
+
 [게시판]
 - 게시판 Controller
 - 게시판 Repository
