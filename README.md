@@ -8,9 +8,15 @@
 2. 패키지 구조 
 [도메인 패키지 구조]
 
-* 회원
+[회원]
 - 회원 Configuration(설정)
 - 회원 Controller
 - 회원 Repository
 - 회원 Service
 - 회원 VO 등
+
+[게시판]
+- 게시판 Controller
+- 게시판 Repository
+- 게시판 Service
+- 게시판 VO 등
